@@ -7,7 +7,7 @@ const hbs = require('hbs');
 require('./hbs/helpers');
 
 
-//obtener el puesto de heroku
+//obtener el puerto de heroku
 const port = process.env.PORT || 3000;
 
 //middleware sirve para que express sepa cual folder queremos servir(que se muestre)
